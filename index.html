@@ -2,38 +2,56 @@
 <html>
 <head>
 	<title>Images That Represent Me!</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
 </head>
 <body>
-	<h1>Hello! I'm Lea and these are images that represent me!</h1>
-
-	<figure>
-		<img src="images/badenPowell.jpg" width="405.5px" height="402.5px" alt="Baden Powell playing guitar">
-		<figcaption>This is Baden Powell, a Brazilian guitarist and composer. Check out his song <a href="https://www.youtube.com/watch?v=JgS16Ipnr2E" target="_blank"> "Canto de Ossanha."</a></figcaption>
-	</figure>
-
-	<figure>
-		<img src="images/davidBowie.jpg" width="855px" height="600px" alt="David Bowie wearing two bodysuits">
-		<figcaption>Only he could pull this off... work it!</figcaption>
-	</figure>
-		
-	<figure>
-		<img src="images/jazzClub.jpg" width="780px" height="439px" alt="Big band playing at a jazz club">
-		<figcaption>Live Music > Club</figcaption>
-	</figure>
-
-	<figure>
-		<img src="images/fenderStrat.jpg" width="425px" height="137px" alt="White Fender Stratocaster">
-		<figcaption>My instrument... mine</figcaption>
-	</figure>
-
-	<figure>
-		<img src="images/sanTelmo.jpg" width="437px" height="576px" alt="Streets of Buenos Aires">
-		<figcaption>I lived in this beautiful city for 10 years. This is Buenos Aires.</figcaption>
-	</figure>
-
-	<br />
+	<div class="row">
+		<div class="intro column">
+			<h1 class="right">
+				Hello!<br>
+				and
+			</h1>
+		</div>
+		<h1 class="column open">
+			<span>
+				I'm Lea<br>
+				these are images<br>
+				that represent me!<br>
+				<a href="#images"><img id="arrow" src="images/arrow.png" width="200px" height="200px"></a>
+			</span>
+		</h1>
+	</div>
+	<div id="images" class="row one">
+		<figure class="column">
+			<img src="images/badenPowell2.jpg" width="327px" height="325px" alt="Baden Powell playing guitar">
+			<figcaption>This is Baden Powell, a Brazilian guitarist and <br/> composer. Check out his song " <a href="https://www.youtube.com/watch?v=JgS16Ipnr2E" target="_blank">Canto de Ossanha</a> ."</figcaption>
+		</figure>
 	
-	<h2> <a href="templates/more.html">Click here</a> to check out more! </h2>
+		<figure class="column">
+			<img src="images/davidBowie2.jpg" width="463px" height="325px" alt="David Bowie wearing two bodysuits">
+			<figcaption>This man had a high fashion - and music - sense</figcaption>
+		</figure>
 
+		<figure class="column">
+			<img src="images/jazzClub2.jpg" width="577px" height="325px" alt="Big band playing at a jazz club">
+			<figcaption>I often enjoy heading out and listening to some live music</figcaption>
+		</figure>
+	</div>
+
+	<div class="row">
+		<figure class="column">
+			<img src="images/fenderStrat.jpg" width="485px" height="325px" alt="White Fender Stratocaster">
+			<figcaption>This is my guitar</figcaption>
+		</figure>
+
+		<figure class="column">
+			<img src="images/buenos_aires.jpg" width="479px" height="325px" alt="Streets of Buenos Aires">
+			<figcaption>I lived in the beautiful Buenos Aires for 10 years</figcaption>
+		</figure>
+	</div>
+	<br/>
+	<a href="templates/more.html#images"><img id="arrow" src="images/arrow.png" width="200px" height="200px" /></a>
 </body>
 </html>
+
