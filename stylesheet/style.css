@@ -17,7 +17,8 @@ h1 span{
 #arrow{
 	border: 0px;
 	position: absolute;
-	right: 900px;  
+	right: 900px; 
+	filter: blur(0px); 
 }
 .more{
 	height: 200px;
@@ -25,6 +26,7 @@ h1 span{
 img{
 	padding: 10px;
 	border: 5px solid #e4dcdc;
+	filter: blur(5px);
 }
 figcaption, a{
 	text-align: center;
@@ -36,6 +38,14 @@ figcaption, a{
 	height: 950px;
 	background-color: #988888;
 	color: #efefef;
+	display: inline-block;
+	float: left;
+}
+.intro2{
+	display: inline-block;
+	float: left;
+	text-align: left;
+	color: #988888;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -65,4 +75,19 @@ figcaption, a{
 }
 figure{
 	display: inline-block;
+}
+.move{
+	float: relative;
+	top:20px;
+}
+
+button{
+	background-color: #988888; 
+    border: none;
+    color: #efefef;
+    margin-top: 5%;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
 }
